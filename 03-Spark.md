@@ -1,5 +1,5 @@
-> [!NOTE] En construcción
-
+> [!WARNING]
+> En construcción
 
 > [!warning] IMPORTANT
 > https://datawise.dev/9-issues-ive-encountered-when-setting-up-a-hadoop-spark-cluster-for-the-first-time
