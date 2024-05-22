@@ -1,12 +1,10 @@
 # General
-.obsidian
 .DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 
 # Thumbnails
 ._*
@@ -26,3 +24,13 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+## Obsidian
+# to exclude Obsidian workspace settings (including plugin and hotkey configurations)
+.obsidian/*
+.obsidian-git-data
+# Exclude Untitled Notes
+Untitled*
+# Exclude "bad" names
+null*
+

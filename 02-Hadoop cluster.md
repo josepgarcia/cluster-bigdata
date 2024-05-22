@@ -1,13 +1,13 @@
-
-
+> [!NOTE] En construcción
 ## Archivo workers
 
 
 ## SSH sin contraseña
 El servidor (cloniciabd) ha de poder conectarse a los nodos sin contraseña.
 
-Con el usuario hadoop:
-```cd
+Con el usuario hadoop en el servidor:
+```
+cd
 ssh-keygen -t rsa
 
 cat .ssh/id_rsa.pub >> .ssh/authorized_keys
@@ -63,3 +63,4 @@ $ scp core-site.xml nuc3:/opt/hadoop/etc/hadoop/
 $ scp core-site.xml nuc4:/opt/hadoop/etc/hadoop/
 
 ```
+
