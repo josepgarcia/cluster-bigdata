@@ -14,7 +14,7 @@ Descargamos la última versión:
 https://spark.apache.org/downloads.html
 
 **User provided Apache Hadoop** ya que vamos a utilizar la versión de hadoop que ya tenemos instalada en /opt
-![[03-sparkDescarga.png]]
+![[./imgs/03-sparkDescarga.png]]
 ## Instalación
 
 ```
@@ -82,7 +82,7 @@ Ya podemos acceder a la IP del servidor (o nombre), puerto 8080
 En nuestro caso:
 http://cloniciabd:8080/
 
-![[03-sparkUI.png]]
+![[./imgs/03-sparkUI.png]]
 
 
 # Descarga e instalación en los clientes
@@ -129,7 +129,7 @@ Causado por: java.lang.NoClassDefFoundError: org/slf4j/Logger
 **source  /home/hadoop/.bashrc**
 
 ---
-![[Pasted image 20240528135242.png]]
+![[./imgs/Pasted image 20240528135242.png]]
 
 # Errores
 ## Error 1
@@ -245,9 +245,9 @@ hdfs dfsadmin -safemode leave
 # WebUI
 
 Cluster, puerto 8080
-![[03-sparkclusterUI.png]]
+![[./imgs/03-sparkclusterUI.png]]
 Jobs, puerto 4040
-![[03-sparkJobs.png]]
+![[./imgs/03-sparkJobs.png]]
 
 # Ejemplos código
 
