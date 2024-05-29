@@ -1,2 +1,2 @@
-> [!NOTE] En construcción
-
+> [!WARNING]
+> En construcción
